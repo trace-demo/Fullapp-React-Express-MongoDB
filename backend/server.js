@@ -10,9 +10,9 @@ const dbData = require('./data');
 
 
 
-// database
+// database //inject your own db username & password
 const dbRoute =
-  'mongodb+srv://yoooo:toyoooo@cluster0.nvv4d.mongodb.net/<dbname>?retryWrites=true&w=majority';
+  'mongodb+srv://<name>:<pwd>@cluster0.nvv4d.mongodb.net/<dbname>?retryWrites=true&w=majority';
 
 
 mongoose.connect(dbRoute, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
