@@ -5,3 +5,6 @@
 </div>
 
 <br/>
+
+
+`npm start` at root directory 
