@@ -1,3 +1,5 @@
+`npm start` at root directory 
+
 <br/>
 
 <div align="center">
@@ -7,4 +9,3 @@
 <br/>
 
 
-`npm start` at root directory 
